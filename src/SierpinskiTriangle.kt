@@ -20,9 +20,7 @@ class SierpinskiTriangle : SierpinskiFractals()
             p.lineTo(x1 + size / 2.0, y1 + size * 1.0)
             p.lineTo(x1- size / 2.0, y1 + size * 1.0)
             g.fill(p)
-
         }else{
-
             size /= 2
             drawTriangle(g, x1, y1, size)
             drawTriangle(g, x1 + size / 2, y1 + size, size)

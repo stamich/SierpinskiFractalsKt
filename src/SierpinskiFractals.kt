@@ -1,6 +1,7 @@
 import java.awt.BorderLayout
 import java.awt.Color
 import java.awt.Dimension
+import java.util.*
 import javax.swing.JFrame
 import javax.swing.JPanel
 import javax.swing.SwingUtilities
@@ -16,7 +17,8 @@ open class SierpinskiFractals : JPanel()
     protected val margin = 20
     protected var limit = dimension
 
-    init {
+    init
+    {
         val size = dimension + 2 * margin
         preferredSize = Dimension(size, size)
         background = Color.black
@@ -31,7 +33,28 @@ open class SierpinskiFractals : JPanel()
 
 fun main(args: Array<String>)
 {
-    SwingUtilities.invokeLater {
+    val input = Scanner(System.`in`)
+
+    println("If you want to see Sierpinski's Triangle choice: 1.")
+    println("If you want to see Sierpinski's Carpet choice: 2.")
+    println("If you want to see both of Sierpinski's fractals choice: 3.")
+
+    val choice = input.nextInt()
+
+    when(choice)
+    {
+        1 -> SwingUtilities.invokeLater {
+            val fr = JFrame()
+            fr.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
+            fr.title = "Sierpinski's triangle"
+            fr.isResizable = false
+            fr.add(SierpinskiTriangle(), BorderLayout.CENTER)
+            fr.pack()
+            fr.setLocationRelativeTo(null)
+            fr.isVisible = true
+        }
+
+        2 -> SwingUtilities.invokeLater {
         val fr = JFrame()
         fr.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
         fr.title = "Sierpinski's Fractals"
@@ -40,16 +63,6 @@ fun main(args: Array<String>)
         fr.pack()
         fr.setLocationRelativeTo(null)
         fr.isVisible = true
-    }
-
-    SwingUtilities.invokeLater {
-        val fr = JFrame()
-        fr.defaultCloseOperation =JFrame.EXIT_ON_CLOSE
-        fr.title = "Sierpinski's triangle"
-        fr.isResizable = false
-        fr.add(SierpinskiTriangle(), BorderLayout.CENTER)
-        fr.pack()
-        fr.setLocationRelativeTo(null)
-        fr.isVisible = true
+        }
     }
 }

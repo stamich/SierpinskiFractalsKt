@@ -8,7 +8,8 @@ import java.awt.RenderingHints
 
 class SierpinskiCarpet : SierpinskiFractals()
 {
-    private fun drawCarpet(g: Graphics2D, x: Int, y: Int, s: Int) {
+    private fun drawCarpet(g: Graphics2D, x: Int, y: Int, s: Int)
+    {
         var size = s
         if (s < limit) return
         size /= 3
@@ -22,7 +23,8 @@ class SierpinskiCarpet : SierpinskiFractals()
         }
     }
 
-    override fun paintComponent(g: Graphics) {
+    override fun paintComponent(g: Graphics)
+    {
         super.paintComponent(g)
         val g1 = g as Graphics2D
         g1.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON)
