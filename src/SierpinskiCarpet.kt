@@ -3,7 +3,7 @@ import java.awt.Graphics2D
 import java.awt.RenderingHints
 
 /**
- * Created by michal on 10.06.17.
+ * Created by michal on 02.06.17.
  */
 
 class SierpinskiCarpet : SierpinskiFractals()
@@ -22,11 +22,11 @@ class SierpinskiCarpet : SierpinskiFractals()
         }
     }
 
-    override fun paintComponent(gg: Graphics) {
-        super.paintComponent(gg)
-        val g = gg as Graphics2D
-        g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON)
-        g.translate(margin, margin)
-        drawCarpet(g, 0, 0, dimension)
+    override fun paintComponent(g: Graphics) {
+        super.paintComponent(g)
+        val g1 = g as Graphics2D
+        g1.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON)
+        g1.translate(margin, margin)
+        drawCarpet(g1, 0, 0, dimension)
     }
 }

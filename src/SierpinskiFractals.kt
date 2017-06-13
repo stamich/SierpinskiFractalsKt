@@ -7,7 +7,7 @@ import javax.swing.SwingUtilities
 import javax.swing.Timer
 
 /**
- * Created by michal on 10.06.17.
+ * Created by michal on 29.05.17.
  */
 
 open class SierpinskiFractals : JPanel()
@@ -37,6 +37,17 @@ fun main(args: Array<String>)
         fr.title = "Sierpinski's Fractals"
         fr.isResizable = false
         fr.add(SierpinskiCarpet(), BorderLayout.CENTER)
+        fr.pack()
+        fr.setLocationRelativeTo(null)
+        fr.isVisible = true
+    }
+
+    SwingUtilities.invokeLater {
+        val fr = JFrame()
+        fr.defaultCloseOperation =JFrame.EXIT_ON_CLOSE
+        fr.title = "Sierpinski's triangle"
+        fr.isResizable = false
+        fr.add(SierpinskiTriangle(), BorderLayout.CENTER)
         fr.pack()
         fr.setLocationRelativeTo(null)
         fr.isVisible = true
