@@ -55,14 +55,27 @@ fun main(args: Array<String>)
         }
 
         2 -> SwingUtilities.invokeLater {
-        val fr = JFrame()
-        fr.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
-        fr.title = "Sierpinski's Fractals"
-        fr.isResizable = false
-        fr.add(SierpinskiCarpet(), BorderLayout.CENTER)
-        fr.pack()
-        fr.setLocationRelativeTo(null)
-        fr.isVisible = true
+            val fr = JFrame()
+            fr.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
+            fr.title = "Sierpinski's carpet"
+            fr.isResizable = false
+            fr.add(SierpinskiCarpet(), BorderLayout.CENTER)
+            fr.pack()
+            fr.setLocationRelativeTo(null)
+            fr.isVisible = true
+        }
+
+        3 -> SwingUtilities.invokeLater {
+            val fr = JFrame()
+            fr.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
+            fr.title = "Sierpinski's fractals"
+            fr.isResizable = false
+            fr.add(SierpinskiTriangle(), BorderLayout.WEST)
+            fr.add(SierpinskiCarpet(), BorderLayout.EAST)
+            fr.pack()
+            fr.setLocation(300, 200)
+            fr.setSize(1275, 675)
+            fr.isVisible = true
         }
     }
 }
