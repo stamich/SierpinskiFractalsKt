@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="364a7107-d62e-41b4-b072-00cd9bad31e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SierpinskiFractals.kt" afterPath="$PROJECT_DIR$/src/SierpinskiFractals.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SierpinskiCarpet.kt" afterPath="$PROJECT_DIR$/src/SierpinskiCarpet.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SierpinskiTriangle.kt" afterPath="$PROJECT_DIR$/src/SierpinskiTriangle.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +20,7 @@
       <file leaf-file-name="SierpinskiFractals.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SierpinskiFractals.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
+            <state relative-caret-position="1122">
               <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="e#0#206#0" expanded="true" />
@@ -30,8 +32,8 @@
       <file leaf-file-name="SierpinskiCarpet.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SierpinskiCarpet.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding>
                 <element signature="e#0#82#0" expanded="true" />
               </folding>
@@ -42,8 +44,8 @@
       <file leaf-file-name="SierpinskiTriangle.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SierpinskiTriangle.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -71,9 +73,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SierpinskiTriangle.kt" />
-        <option value="$PROJECT_DIR$/src/SierpinskiCarpet.kt" />
         <option value="$PROJECT_DIR$/src/SierpinskiFractals.kt" />
+        <option value="$PROJECT_DIR$/src/SierpinskiCarpet.kt" />
+        <option value="$PROJECT_DIR$/src/SierpinskiTriangle.kt" />
       </list>
     </option>
   </component>
@@ -650,12 +652,12 @@
       <updated>1497069437499</updated>
       <workItem from="1497069440385" duration="3482000" />
       <workItem from="1497356991126" duration="7441000" />
-      <workItem from="1497370032820" duration="7451000" />
+      <workItem from="1497370032820" duration="9285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18374000" />
+    <option name="totallyTimeSpent" value="20208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
@@ -757,29 +759,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SierpinskiCarpet.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SierpinskiTriangle.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SierpinskiCarpet.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SierpinskiFractals.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
+        <state relative-caret-position="1122">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="e#0#206#0" expanded="true" />

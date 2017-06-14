@@ -2,7 +2,7 @@ import java.awt.*
 import java.awt.geom.Path2D
 
 /**
- * Created by michal on 04.06.17.
+ * Created by michal on 30.05.17.
  */
 
 class SierpinskiTriangle : SierpinskiFractals()

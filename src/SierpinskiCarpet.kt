@@ -3,7 +3,7 @@ import java.awt.Graphics2D
 import java.awt.RenderingHints
 
 /**
- * Created by michal on 02.06.17.
+ * Created by michal on 29.05.17.
  */
 
 class SierpinskiCarpet : SierpinskiFractals()
